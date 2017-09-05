@@ -4,7 +4,10 @@
 Para realizar las prácticas debes tener instalado en el equipo o servidor de pruebas:
   - Docker
   - Python
-  - Ansible: pip install ansible
+
+#### Instalación de Ansible
+
+        pip install ansible
 
 ### Primer paso
 Debes construir un docker personalizado que incluye el servidor openssh
