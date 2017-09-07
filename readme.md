@@ -13,7 +13,7 @@ Para realizar las prácticas debes tener instalado en el equipo o servidor de pr
 Debes construir un docker personalizado que incluye el servidor openssh
 
     cd ansible000
-    docker build -t server:1604 .
+    docker build -t server:16.04 .
 
 En el paso anterior debes verificar el ID de la imágen que se creó y seleccionarla para los pasos a continuación.
 
@@ -21,7 +21,7 @@ En el paso anterior debes verificar el ID de la imágen que se creó y seleccion
 
 Ahora debes crear un conjunto de maquinas para pruebas, modifica el archivo "create_dockers.sh ajustando los parametros que consideres necesarios para lanzar los dockers que se ajusten al experimento que diseñes."
 
-    ./create_dockers.sh <cantidad de maquinas> <id de la imagen>
+    ./create_dockers.sh <cantidad de maquinas> <server:16.04>
 
 ### Tercer paso, configuración de alias
 Edita el archivo /etc/hosts y adiciona 3 alias a localhost
