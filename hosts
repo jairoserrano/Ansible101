@@ -1,4 +1,6 @@
 [web]
-localhost:2221
+server01:2221
+server02:2222
 
-
+[db]
+server03:2223
