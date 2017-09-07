@@ -1,6 +1,8 @@
 [web]
-server01:2221
-server02:2222
+server01 ansible_port=2221 ansible_ssh_private_key_file=../key.private
 
-[db]
-server03:2223
+[sql]
+server02 ansible_port=2222 ansible_ssh_private_key_file=../key.private
+
+[nosql]
+server03 ansible_port=2223 ansible_ssh_private_key_file=../key.private
