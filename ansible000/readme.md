@@ -17,7 +17,7 @@ Ahora debes crear un conjunto de maquinas para pruebas, se crearán automáticam
 
 Si lo deseas puedes modificar el archivo `create_dockers.sh` ajustando los parametros que consideres necesarios para lanzar los dockers que se ajusten al experimento que diseñes.
 
-    ../create_dockers.sh <cantidad de maquinas> <server:16.04>
+    ../create_dockers.sh <server:16.04>
 
 ## Tercer paso, configuración de alias
 Opción 1: edita el archivo `/etc/hosts` y adiciona 3 alias a localhost

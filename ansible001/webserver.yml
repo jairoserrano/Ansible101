@@ -1,6 +1,6 @@
 ---
-  - name: Instalación y configuración de un stack para web
-    hosts: web
-    remote_user: root
-    roles:
-     - webserver
+- name: Instalación y configuración de un stack para web
+  hosts: web
+  remote_user: root
+  roles:
+   - webserver
