@@ -1,0 +1,4 @@
+ansible002/data/mysql/*
+ansible002/data/redis/*
+ansible002/data/moodle/*
+ansible002/data/files/*
